@@ -103,7 +103,7 @@
     if (mysqli_query($conn, $query)) {
       ?>
       <script>
-  alert("New record created successfully !");
+  window.location = "view_department.php";
       </script>
 
         <?php
